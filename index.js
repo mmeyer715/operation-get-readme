@@ -8,30 +8,27 @@ inquirer
       type: 'input',
       name: 'title',
       message: 'What is your project title?'
+    },
+    {
+      type: 'input',
+      name: 'description',
+      message: 'Please give a brief description of your project.'
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the steps required to install your project?'
     }
-    // {
-    //   type: 'checkbox',
-    //   message: 'What languages do you know?',
-    //   name: 'stack',
-    //   choices: ['HTML', 'CSS', 'JavaScript', 'MySQL']
-    // },
-    // {
-    //   type: 'list',
-    //   message: 'What is your preferred method of communication?',
-    //   name: 'contact',
-    //   choices: ['email', 'phone', 'telekinesis']
-    // }
   ])
   .then(data => {
-    // const filename = `${data.name
-    //   .toLowerCase()
-    //   .split(' ')
-    //   .join('')}.json`;
+    const filename = `${data.title
+      .toLowerCase()
+      .split(' ')
+      .join('')}.json`;
 
-    // fs.writeFile(filename, JSON.stringify(data, null, '\t'), err =>
-    //   err ? console.log(err) : console.log('Success!')
-    console.log(data.name);
-    // );
+    fs.writeFile(filename, JSON.stringify(data, null, '\t'), err =>
+      err ? console.log(err) : console.log('Success!')
+    );
 });
 
 // TODO: Create a function to write README file
