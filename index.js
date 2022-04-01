@@ -1,5 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+inquirer.registerPrompt("loop", require("inquirer-loop")(inquirer));
+
 const fs = require('fs');
 // TODO: Create an array of questions for user input
 inquirer
@@ -15,9 +17,22 @@ inquirer
       message: 'Please give a brief description of your project.'
     },
     {
-        type: 'input',
+        type: 'loop',
         name: 'installation',
-        message: 'What are the steps required to install your project?'
+        message: 'Would you like to add a step for installation?',
+        questions: [
+            {
+                type: 'input',
+                name: 'stepNum',
+                message: 'Enter step number'
+            },
+            {
+                type: 'input',
+                name: 'value',
+                message: 'Describe the step.'
+            },
+
+        ]
     }
   ])
   .then(data => {
