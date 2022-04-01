@@ -22,7 +22,7 @@ inquirer
       message: 'Would you like to add a step for installation?',
       questions: [
           {
-              type: 'input',
+              type: 'number',
               name: 'stepNum',
               message: 'Enter step number'
           },
@@ -39,7 +39,7 @@ inquirer
       message: 'Would you like to add a step for usage?',
       questions: [
           {
-              type: 'input',
+              type: 'number',
               name: 'stepNum',
               message: 'Enter step number'
           },
