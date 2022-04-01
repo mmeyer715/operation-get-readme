@@ -17,21 +17,54 @@ inquirer
       message: 'Please give a brief description of your project.'
     },
     {
-        type: 'loop',
-        name: 'installation',
-        message: 'Would you like to add a step for installation?',
-        questions: [
-            {
-                type: 'input',
-                name: 'stepNum',
-                message: 'Enter step number'
-            },
-            {
-                type: 'input',
-                name: 'value',
-                message: 'Describe the step.'
-            },
-
+      type: 'loop',
+      name: 'installation',
+      message: 'Would you like to add a step for installation?',
+      questions: [
+          {
+              type: 'input',
+              name: 'stepNum',
+              message: 'Enter step number'
+          },
+          {
+              type: 'input',
+              name: 'value',
+              message: 'Describe the installation step.'
+          },
+        ]
+    },
+    {
+      type: 'loop',
+      name: 'usage',
+      message: 'Would you like to add a step for usage?',
+      questions: [
+          {
+              type: 'input',
+              name: 'stepNum',
+              message: 'Enter step number'
+          },
+          {
+              type: 'input',
+              name: 'value',
+              message: 'Describe the usage step.'
+          },
+        ]
+    },
+    {
+      type: 'loop',
+      name: 'credits',
+      message: 'Would you like to give credit to any contributors?',
+      questions: [
+          {
+              type: 'input',
+              name: 'contName',
+              message: 'Enter contributors name'
+          },
+          {
+              type: 'input',
+              name: 'link',
+              message: 'Please add github link to contributor.'
+          },
         ]
     }
   ])

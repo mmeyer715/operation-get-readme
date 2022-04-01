@@ -1,0 +1,30 @@
+{
+	"title": "My Project",
+	"description": "Its Mine Only",
+	"installation": [
+		{
+			"stepNum": "Get Bent",
+			"value": "Come in straight; leave bent"
+		},
+		{
+			"stepNum": "2",
+			"value": "Yo mama"
+		}
+	],
+	"usage": [
+		{
+			"stepNum": "1",
+			"value": "no need, Im not sharing"
+		}
+	],
+	"credits": [
+		{
+			"stepNum": "1",
+			"value": "Me"
+		},
+		{
+			"stepNum": "2",
+			"value": "you"
+		}
+	]
+}
