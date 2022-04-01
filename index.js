@@ -78,6 +78,23 @@ inquirer
           message: 'Please explain and provide examples of the test performed.'
         }
       ]
+    },
+    {
+      type: 'loop',
+      name: 'questions',
+      message: 'Add additioinal contact information for potential questions.',
+      questions: [
+        {
+          type:'input',
+          name: 'gitHub',
+          message: 'Please enter your gitHub username and link to your profile.'
+        },
+        {
+          type: 'input',
+          name: 'email',
+          message: 'Please enter your email address'
+        },
+      ]
     }
   ])
   .then(data => {
