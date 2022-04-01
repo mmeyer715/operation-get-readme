@@ -95,6 +95,12 @@ inquirer
           message: 'Please enter your email address'
         },
       ]
+    },
+    {
+      type: 'list',
+      name: 'license',
+      message: 'Which license applies to your project?',
+      choices: ['Apache', 'GNU', 'MIT']
     }
   ])
   .then(data => {
