@@ -14,7 +14,7 @@ inquirer
     {
       type: 'input',
       name: 'description',
-      message: 'Please give a brief description of your project.'
+      message: 'Please provide a detailed description of your project.',
     },
     {
       type: 'loop',
@@ -41,7 +41,7 @@ inquirer
           {
               type: 'number',
               name: 'stepNum',
-              message: 'Enter step number'
+              message: 'Enter step number.'
           },
           {
               type: 'input',
@@ -52,13 +52,13 @@ inquirer
     },
     {
       type: 'loop',
-      name: 'credits',
+      name: 'contributing',
       message: 'Would you like to give credit to any contributors?',
       questions: [
           {
               type: 'input',
               name: 'contName',
-              message: 'Enter contributors name'
+              message: 'Enter contributors name.'
           },
           {
               type: 'input',
@@ -66,6 +66,18 @@ inquirer
               message: 'Please add github link to contributor.'
           },
         ]
+    },
+    {
+      type: 'loop',
+      name: 'tests',
+      message: 'Would you like to add any testing instructions for your project?',
+      questions: [
+        {
+          type: 'input',
+          name: 'testing',
+          message: 'Please explain and provide examples of the test performed.'
+        }
+      ]
     }
   ])
   .then(data => {
