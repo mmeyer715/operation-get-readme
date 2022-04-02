@@ -19,13 +19,6 @@ function getReadmeData() {
       default: 'My Description'
     },
     {
-      type: 'list',
-      message: 'What license is applicable for this project?',
-      name: 'license',
-      choices: ['Apache', 'GNU', 'MIT'],
-      default: 'MIT'
-    },
-    {
       type: 'loop',
       name: 'installation',
       message: 'Would you like to add a step for installation?',
@@ -94,6 +87,23 @@ function getReadmeData() {
           message: 'Please enter your email address'
         },
       ]
+    },
+    {
+      type: 'loop',
+      name: 'license',
+      message: 'Would you like to add a license?',
+      questions: [
+        {
+          type: 'input',
+          name: 'licenseName',
+          message: 'Enter license name.'
+        },
+        {
+          type: 'input',
+          name: 'licenseLink',
+          message: 'Enter license link.'
+        }
+      ]
     }
   ])
 }
@@ -108,6 +118,7 @@ function getReadmeData() {
 async function init() {
   const data = await getReadmeData();
   const setReadme = generateMarkdown(data);
+  console.log(data.license[0].licenseName);
 }
 
 // Function call to initialize app

@@ -1,7 +1,14 @@
-const Constants = {
-    MULTIPLIER: 2,
-    ORDER_MINIMUM: 10,
-    SHIPPING_COST: 6.5
+const OutlineConstants = {
+    TITLE: "# ",
+    DESCRIPTION: "## Description",
+    TABLE_OF_CONTENTS: "## Table of Contents",
+    INSTALLATION: "## Installation",
+    USAGE: "## Usage",
+    CREDITS: "## Credits",
+    LICENSE: "## License",
+    BADGES: "## Badges",
+    CONTRIBUTING: "## Contributing",
+    TESTS: "## Tests"
 }
 
-module.exports = Constants;
+module.exports = OutlineConstants;
