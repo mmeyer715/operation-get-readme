@@ -9,18 +9,21 @@ inquirer
     {
       type: 'input',
       name: 'title',
-      message: 'What is your project title?'
+      message: 'What is your project title?',
+      default: 'My Project'
     },
     {
       type: 'input',
       name: 'description',
       message: 'Please provide a detailed description of your project.',
+      default: 'My Description'
     },
     {
       type: 'list',
       message: 'What license is applicable for this project?',
       name: 'license',
-      choices: ['Apache', 'GNU', 'MIT']
+      choices: ['Apache', 'GNU', 'MIT'],
+      default: 'MIT'
     },
     {
       type: 'loop',
@@ -99,7 +102,7 @@ inquirer
       .split(' ')
       .join('')}.json`;
 
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), err =>
+    fs.writeFile('./utils/json/' + filename, JSON.stringify(data, null, '\t'), err =>
       err ? console.log(err) : console.log('Success!')
     );
 });
