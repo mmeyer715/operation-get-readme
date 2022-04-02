@@ -1,56 +1,48 @@
 {
 	"title": "Omega",
-	"description": "The end",
+	"description": "The End",
 	"license": "MIT",
 	"installation": [
 		{
-			"stepNum": 1,
-			"value": "Do this"
+			"value": "install"
 		},
 		{
-			"stepNum": 2,
-			"value": "Do That"
+			"value": "it"
+		},
+		{
+			"value": "here"
 		}
 	],
 	"usage": [
 		{
-			"stepNum": 1,
-			"value": "Do this"
+			"value": "hit play"
 		},
 		{
-			"stepNum": 2,
-			"value": "Do that"
+			"value": "now"
 		}
 	],
 	"contributing": [
 		{
-			"contName": "gomer",
-			"link": "gomeGit"
+			"contName": "Lucas",
+			"link": "github"
 		},
 		{
-			"contName": "gooper",
-			"link": "gooperGit"
+			"contName": "Maria",
+			"link": "github"
 		}
 	],
 	"tests": [
 		{
-			"testing": "add milk"
+			"testing": "test it"
 		},
 		{
-			"testing": "add water"
-		},
-		{
-			"testing": "stir!"
+			"testing": "tdd"
 		}
 	],
 	"questions": [
 		{
 			"gitHub": "yo mama",
 			"email": "my house"
-		},
-		{
-			"gitHub": "githublinkprofile",
-			"email": "email"
 		}
 	]
 }

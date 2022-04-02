@@ -28,11 +28,6 @@ inquirer
       message: 'Would you like to add a step for installation?',
       questions: [
           {
-              type: 'number',
-              name: 'stepNum',
-              message: 'Enter step number'
-          },
-          {
               type: 'input',
               name: 'value',
               message: 'Describe the installation step.'
@@ -44,11 +39,6 @@ inquirer
       name: 'usage',
       message: 'Would you like to add a step for usage?',
       questions: [
-          {
-              type: 'number',
-              name: 'stepNum',
-              message: 'Enter step number.'
-          },
           {
               type: 'input',
               name: 'value',
