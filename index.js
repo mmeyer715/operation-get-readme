@@ -1,11 +1,11 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 inquirer.registerPrompt("loop", require("inquirer-loop")(inquirer));
-
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
-inquirer
-  .prompt([
+function getReadmeData() {
+ return inquirer.prompt([
     {
       type: 'input',
       name: 'title',
@@ -96,22 +96,19 @@ inquirer
       ]
     }
   ])
-  .then(data => {
-    const filename = `${data.title
-      .toLowerCase()
-      .split(' ')
-      .join('')}.json`;
+}
 
-    fs.writeFile('./utils/json/' + filename, JSON.stringify(data, null, '\t'), err =>
-      err ? console.log(err) : console.log('Success!')
-    );
-});
+  
+// getReadmeData();
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+async function init() {
+  const data = await getReadmeData();
+  const setReadme = generateMarkdown(data);
+}
 
 // Function call to initialize app
-// init();
+init();
