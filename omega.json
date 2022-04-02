@@ -1,0 +1,56 @@
+{
+	"title": "Omega",
+	"description": "The end",
+	"license": "MIT",
+	"installation": [
+		{
+			"stepNum": 1,
+			"value": "Do this"
+		},
+		{
+			"stepNum": 2,
+			"value": "Do That"
+		}
+	],
+	"usage": [
+		{
+			"stepNum": 1,
+			"value": "Do this"
+		},
+		{
+			"stepNum": 2,
+			"value": "Do that"
+		}
+	],
+	"contributing": [
+		{
+			"contName": "gomer",
+			"link": "gomeGit"
+		},
+		{
+			"contName": "gooper",
+			"link": "gooperGit"
+		}
+	],
+	"tests": [
+		{
+			"testing": "add milk"
+		},
+		{
+			"testing": "add water"
+		},
+		{
+			"testing": "stir!"
+		}
+	],
+	"questions": [
+		{
+			"gitHub": "yo mama",
+			"email": "my house"
+		},
+		{
+			"gitHub": "githublinkprofile",
+			"email": "email"
+		}
+	]
+}

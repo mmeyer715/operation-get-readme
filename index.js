@@ -17,6 +17,12 @@ inquirer
       message: 'Please provide a detailed description of your project.',
     },
     {
+      type: 'list',
+      message: 'What license is applicable for this project?',
+      name: 'license',
+      choices: ['Apache', 'GNU', 'MIT']
+    },
+    {
       type: 'loop',
       name: 'installation',
       message: 'Would you like to add a step for installation?',
@@ -30,7 +36,7 @@ inquirer
               type: 'input',
               name: 'value',
               message: 'Describe the installation step.'
-          },
+          }
         ]
     },
     {
@@ -47,7 +53,7 @@ inquirer
               type: 'input',
               name: 'value',
               message: 'Describe the usage step.'
-          },
+          }
         ]
     },
     {
@@ -64,7 +70,7 @@ inquirer
               type: 'input',
               name: 'link',
               message: 'Please add github link to contributor.'
-          },
+          }
         ]
     },
     {
@@ -95,12 +101,6 @@ inquirer
           message: 'Please enter your email address'
         },
       ]
-    },
-    {
-      type: 'list',
-      name: 'license',
-      message: 'Which license applies to your project?',
-      choices: ['Apache', 'GNU', 'MIT']
     }
   ])
   .then(data => {
