@@ -18,7 +18,14 @@ function generateMarkdown(data) {
   let testArray = data.tests.length;
   let questionArray = data.questions.length;
   let licenseArray = data.license.length;
-  renderLicenseBadge(licenseArray);
+
+  console.log(installArray);
+  console.log(usageArray);
+  console.log(contributeArray);
+  console.log(testArray);
+  console.log(questionArray);
+  console.log(licenseArray);
+  //renderLicenseBadge(licenseArray);
   // return `# ${data.title}
 }
 

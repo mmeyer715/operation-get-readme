@@ -118,7 +118,6 @@ function getReadmeData() {
 async function init() {
   const data = await getReadmeData();
   const setReadme = generateMarkdown(data);
-  console.log(data.license[0].licenseName);
 }
 
 // Function call to initialize app
