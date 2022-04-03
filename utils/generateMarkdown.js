@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
   const BADGE_END = '-blueviolet)'
   let badgeString = '';
   if (license.length === 0) {
-    return
+    return badgeString;
   } else {
     for (var i = 0; i < license.length; i++) {
       badgeString += BADGE_BASE + license[i].licenseName + BADGE_END + '\n  ';
@@ -14,10 +14,6 @@ function renderLicenseBadge(license) {
     return badgeString;
   }
 }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
