@@ -3,15 +3,15 @@
 function renderLicenseBadge(license) {
   const BADGE_BASE = "![badge](https://img.shields.io/badge/license-"
   const BADGE_END = '-blueviolet)'
-  const liceArr = [];
+  let badgeString = '';
   if (license.length === 0) {
     return
   } else {
     for (var i = 0; i < license.length; i++) {
-      liceArr.push(BADGE_BASE + license[i].licenseName + BADGE_END);
-      console.log(license[i].licenseName);
-      return liceArr;
+      badgeString += BADGE_BASE + license[i].licenseName + BADGE_END + '\n';
+      console.log(badgeString); 
     }
+    return badgeString;
   }
 }
 
