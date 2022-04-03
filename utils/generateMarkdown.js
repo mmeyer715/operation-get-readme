@@ -12,6 +12,11 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  let installArray = data.installation.length;
+  let usageArray = data.usage.length;
+  let contributeArray = data.contributing.length;
+  let testArray = data.tests.length;
+  let questionArray = data.questions.length;
   let licenseArray = data.license.length;
   renderLicenseBadge(licenseArray);
   // return `# ${data.title}
