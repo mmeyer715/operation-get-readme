@@ -108,10 +108,7 @@ function getReadmeData() {
   ])
 }
 
-  
-// getReadmeData();
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 
   fileName = `${fileName
@@ -124,7 +121,7 @@ function writeToFile(fileName, data) {
   );
 }
 
-// TODO: Create a function to initialize app
+
 async function init() {
   const data = await getReadmeData();
   const setReadme = generateMarkdown(data);
