@@ -1,17 +1,21 @@
+// packages needed
 const renderLicenseBadge = require('./renderLicenseBadge');
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+const renderSection = require('./renderSection')
 
-// TODO: Create a function to generate markdown for README
+
+//function to generate markdown for README
 function generateMarkdown(data) {
-  let installArray = data.installation.length;
-  let usageArray = data.usage.length;
-  let contributeArray = data.contributing.length;
-  let testArray = data.tests.length;
-  let questionArray = data.questions.length;
+  let installArray = data.installation;
+  let usageArray = data.usage;
+  let contributeArray = data.contributing;
+  let testArray = data.tests;
+  let questionArray = data.questions;
+  let licenseArray = data.license;
   // get badges
-  let badges = renderLicenseBadge(data.license);
+  let badges = renderLicenseBadge(licenseArray);
+  let installation = renderSection(installArray);
+  let usage = renderSection(usageArray);
+  let tests = renderSection(testArray);
   console.log(data);
   return `
   # ${data.title}
@@ -22,15 +26,17 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  
+
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
   * [License](#license)
   
   ## Installation
+  ${installation}
 
   ## Usage
+  ${usage}
 
   ## Credits
 
@@ -41,6 +47,7 @@ function generateMarkdown(data) {
   ## Contributing
 
   ## Tests
+  ${tests}
   `;
 
 }

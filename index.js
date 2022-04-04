@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 inquirer.registerPrompt("loop", require("inquirer-loop")(inquirer));
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
-// TODO: Create an array of questions for user input
+// collect data for readme
 function getReadmeData() {
  return inquirer.prompt([
     {
@@ -66,7 +66,7 @@ function getReadmeData() {
       questions: [
         {
           type: 'input',
-          name: 'testing',
+          name: 'value',
           message: 'Please explain and provide examples of the test performed.'
         }
       ]
@@ -108,7 +108,7 @@ function getReadmeData() {
   ])
 }
 
-
+// writes user information to new file
 function writeToFile(fileName, data) {
 
   fileName = `${fileName
@@ -121,7 +121,7 @@ function writeToFile(fileName, data) {
   );
 }
 
-
+// initializes app
 async function init() {
   const data = await getReadmeData();
   const setReadme = generateMarkdown(data);
