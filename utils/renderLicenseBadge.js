@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
       return badgeString;
     } else {
       for (var i = 0; i < license.length; i++) {
-        badgeString += Constants.BADGE_BASE + license[i].licenseName + Constants.BADGE_END + '\n  ';
+        badgeString += Constants.BADGE_BASE + license[i].value + Constants.BADGE_END + '\n  ';
         console.log(badgeString); 
       }
       return badgeString;

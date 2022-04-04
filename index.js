@@ -49,13 +49,8 @@ function getReadmeData() {
       questions: [
           {
               type: 'input',
-              name: 'contName',
+              name: 'value',
               message: 'Enter contributors name.'
-          },
-          {
-              type: 'input',
-              name: 'link',
-              message: 'Please add github link to contributor.'
           }
         ]
     },
@@ -95,13 +90,8 @@ function getReadmeData() {
       questions: [
         {
           type: 'input',
-          name: 'licenseName',
+          name: 'value',
           message: 'Enter license name.'
-        },
-        {
-          type: 'input',
-          name: 'licenseLink',
-          message: 'Enter license link.'
         }
       ]
     }

@@ -1,7 +1,9 @@
 
   # My Project
 
-  ![badge](https://img.shields.io/badge/license-MIT'-blueviolet)
+  ![badge](https://img.shields.io/badge/license-MIT-blueviolet)
+  ![badge](https://img.shields.io/badge/license-FOO-blueviolet)
+  ![badge](https://img.shields.io/badge/license-GNU-blueviolet)
   
   
   ## Description
@@ -11,29 +13,37 @@
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Credits](#credits)
   * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   ## Installation
-  1. test
-  2. testsss
+  1. do this
+  2. do that
   
 
   ## Usage
-  1. usage
-  2. usages
+  1. use this
+  2. use that
+  3. use everything
   
-
-  ## Credits
 
   ## License
-
-  ## Badges
+  1. MIT
+  2. FOO
+  3. GNU
+  
 
   ## Contributing
+  1. Maria
+  2. Lucas
+  
 
   ## Tests
-  1. testing instruction
-  2. test instruction
+  1. test this
+  2. test that
   
+  
+  ## Questions
   

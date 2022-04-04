@@ -11,10 +11,13 @@ function generateMarkdown(data) {
   let testArray = data.tests;
   let questionArray = data.questions;
   let licenseArray = data.license;
-  // get badges
+  
+  // Get data for rendering
   let badges = renderLicenseBadge(licenseArray);
   let installation = renderSection(installArray);
   let usage = renderSection(usageArray);
+  let license = renderSection(licenseArray);
+  let contributing = renderSection(contributeArray);
   let tests = renderSection(testArray);
   console.log(data);
   return `
@@ -29,8 +32,10 @@ function generateMarkdown(data) {
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Credits](#credits)
   * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   ## Installation
   ${installation}
@@ -38,16 +43,16 @@ function generateMarkdown(data) {
   ## Usage
   ${usage}
 
-  ## Credits
-
   ## License
-
-  ## Badges
+  ${license}
 
   ## Contributing
+  ${contributing}
 
   ## Tests
   ${tests}
+  
+  ## Questions
   `;
 
 }
