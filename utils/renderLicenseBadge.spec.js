@@ -9,9 +9,8 @@ describe('renderLicenseBadge', () => {
     })
 
     it("If single badge, ouput string of badge", () => {
-        let input = [Constants.SINGLE_BADGE];
-        let expectedOutput = Constants.BADGE_BASE + Constants.SINGLE_BADGE + Constants.BADGE_END;
-        const badges = renderLicenseBadge(input)
+        const badges = renderLicenseBadge(Constants.SINGLE_BADGE)
+        let expectedOutput = Constants.BADGE_BASE + Constants.SINGLE_BADGE[0].licenseName + Constants.BADGE_END;
         expect(badges).toEqual(expectedOutput);
     })
 
