@@ -1,14 +1,6 @@
-const OutlineConstants = {
-    TITLE: "# ",
-    DESCRIPTION: "## Description",
-    TABLE_OF_CONTENTS: "## Table of Contents",
-    INSTALLATION: "## Installation",
-    USAGE: "## Usage",
-    CREDITS: "## Credits",
-    LICENSE: "## License",
-    BADGES: "## Badges",
-    CONTRIBUTING: "## Contributing",
-    TESTS: "## Tests"
+const Constants = {
+   BADGE_URL_BASE: 'https://img.shields.io/badge/license-',
+   BADGE_COLOR: 'blueviolet'
 }
 
-module.exports = OutlineConstants;
+module.exports = Constants;
