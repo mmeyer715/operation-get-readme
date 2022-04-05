@@ -1,11 +1,24 @@
 const Constants = {
+   // Base Test Value
+   EMPTY_ARRAY: [],
+
+   // Badge Values
    BADGE_BASE: "![badge](https://img.shields.io/badge/license-",
    BADGE_END: '-blueviolet)',
-   EMPTY_ARRAY: [],
-   SINGLE_BADGE: [{ licenseName: 'THIS', licenseLink: 'THIS.link' }],
-   MULTIPLE_BADGE:[{ licenseName: 'THIS', licenseLink: 'THIS.link' }, { licenseName: 'THAT', licenseLink: 'THAT.link' }],
+   SINGLE_BADGE: [{ value: 'THIS'}],
+   MULTIPLE_BADGE:[{ value: 'THIS'}, { value: 'THAT'}],
+
+   // Section Test Values
    SINGLE_SECTION: [{ value: 'you best be working' }],
-   MULTIPLE_SECTION: [{ value: 'you best be working' }, { value: 'or there is going to be trouble' }]
+   MULTIPLE_SECTION: [{ value: 'you best be working' }, { value: 'or there is going to be trouble' }],
+
+   // Questions values
+   EMAIL_BASE: "[EMAIL](mailto:",
+   EMAIL_END: ")",
+   GITHUB_BASE: "[GITHUB](URL ",
+   GITHUB_END: ")",
+   SINGLE_QUESTION: [ { name: 'Lucas', gitHub: 'ggg', email: 'ggg' } ],
+   MULTIPLE_QUESTION: [ { name: 'Lucas', gitHub: 'ggg', email: 'ggg' }, { name: 'Maria', gitHub: 'hhhh', email: 'hhhh' } ]
 }
 
 module.exports = Constants;

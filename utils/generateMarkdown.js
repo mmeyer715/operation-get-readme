@@ -1,6 +1,7 @@
 // packages needed
 const renderLicenseBadge = require('./renderLicenseBadge');
-const renderSection = require('./renderSection')
+const renderSection = require('./renderSection');
+const renderQuestions = require('./renderQuestions')
 
 
 //function to generate markdown for README
@@ -19,6 +20,7 @@ function generateMarkdown(data) {
   let license = renderSection(licenseArray);
   let contributing = renderSection(contributeArray);
   let tests = renderSection(testArray);
+  let questions = renderQuestions(questionArray);
   console.log(data);
   return `
   # ${data.title}
@@ -53,6 +55,7 @@ function generateMarkdown(data) {
   ${tests}
   
   ## Questions
+  ${questions}
   `;
 
 }
