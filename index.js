@@ -73,13 +73,18 @@ function getReadmeData() {
       questions: [
         {
           type:'input',
+          name: 'name',
+          message: 'Enter contributors name'
+        },
+        {
+          type:'input',
           name: 'gitHub',
-          message: 'Please enter your gitHub username and link to your profile.'
+          message: 'Please enter contributors gitHub username and link to profile.'
         },
         {
           type: 'input',
           name: 'email',
-          message: 'Please enter your email address'
+          message: 'Please enter contributors email address'
         },
       ]
     },
