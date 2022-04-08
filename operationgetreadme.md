@@ -2,7 +2,6 @@
   # Operation Get Readme
 
   ![badge](https://img.shields.io/badge/license-MIT-blueviolet)
-  ![badge](https://img.shields.io/badge/license-APACHE-blueviolet)
   ![badge](https://img.shields.io/badge/license-GNU-blueviolet)
   
   
@@ -20,18 +19,19 @@
   
   ## Installation
   1. Clone operation-get-readme repository
-  2. Install node.js, if not already installed on computer
-  3. Run 'node index.js' to initiate application
+  2. If not already installed, install node.js on computer
+  3. run 'node index.js' to initiate application
   
 
   ## Usage
   1. Run 'node index.js'
+  2. Follow all prompts
+  3. Once finished, you will have a professional readme file saved as your project title.
   
 
   ## License
   1. MIT
-  2. APACHE
-  3. GNU
+  2. GNU
   
 
   ## Contributing
@@ -40,16 +40,16 @@
   
 
   ## Tests
-  1. Change present working directory to ./utils
-  2. install jest npm i --save--dev
-  3. npm run test
+  1. Change present working directory to './utils'
+  2. install jest
+  3. Run 'npm run test'
   
   
   ## Questions
-  1. undefined
+  1. Maria Bean
   	[GITHUB](URL mmeyer715: github.com/mmeyer715)
   	[EMAIL](mailto:mbean1216@icloud.com)
-  2. undefined
+  2. Lucas Zimmerman
   	[GITHUB](URL dolomiteson: github.com/dolomiteson)
   	[EMAIL](mailto:zimmerman.lucas@hotmail.com)
   
