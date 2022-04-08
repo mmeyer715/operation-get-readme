@@ -7,6 +7,7 @@
   
   ## Description
   This project was created to generate professional readme files using command line prompts. Information will automatically be saved once the user has completed all prompts.
+  ![walkthrough](./utils/readme%20walkthrough.webm)
 
   ## Table of Contents
 
