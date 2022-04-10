@@ -3,11 +3,11 @@
 
   ![badge](https://img.shields.io/badge/license-MIT-blueviolet)
   ![badge](https://img.shields.io/badge/license-GNU-blueviolet)
+  ![badge](https://img.shields.io/badge/license-toKill-blueviolet)
   
   
   ## Description
   This project was created to generate professional readme files using command line prompts. Information will automatically be saved once the user has completed all prompts.
-  ![walkthrough](./utils/readme%20walkthrough.webm)
 
   ## Table of Contents
 
@@ -33,6 +33,7 @@
   ## License
   1. MIT
   2. GNU
+  3. toKill
   
 
   ## Contributing
@@ -42,16 +43,12 @@
 
   ## Tests
   1. Change present working directory to './utils'
-  2. install jest
+  2. Install jest
   3. Run 'npm run test'
   
   
   ## Questions
-  1. Maria Bean
-  	[GITHUB](URL mmeyer715: github.com/mmeyer715)
-  	[EMAIL](mailto:mbean1216@icloud.com)
-  2. Lucas Zimmerman
-  	[GITHUB](URL dolomiteson: github.com/dolomiteson)
-  	[EMAIL](mailto:zimmerman.lucas@hotmail.com)
+  1. Maria Bean: [GITHUB](mmeyer715: github.com/mmeyer715)[EMAIL](mailto:mbean1216@icloud.com)
+  2. Lucas Zimmerman: [GITHUB](github.com/dolomiteson)[EMAIL](mailto:zimmerman.lucas@hotmail.com)
   
   
