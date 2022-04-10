@@ -32,10 +32,10 @@
   
   ## Questions
   1. Lucas Zimmerman
-  	1. [GITHUB](https://github.com/dolomiteson)
-  	2. [EMAIL](mailto:zimmerman.lucas@hotmail)
+	1. [GITHUB](https://github.com/dolomiteson)
+	2. [EMAIL](mailto:zimmerman.lucas@hotmail)
   2. Maria Bean
-  	2. [GITHUB](ddsfsdf)
-  	3. [EMAIL](mailto:dsfdsfsd)
+	1. [GITHUB](sdfdsf)
+	2. [EMAIL](mailto:sdfsdf)
   
   
