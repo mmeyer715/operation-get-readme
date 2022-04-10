@@ -15,7 +15,7 @@ const Constants = {
    // Questions values
    EMAIL_BASE: "[EMAIL](mailto:",
    EMAIL_END: ")",
-   GITHUB_BASE: "[GITHUB](URL ",
+   GITHUB_BASE: "[GITHUB](",
    GITHUB_END: ")",
    SINGLE_QUESTION: [ { name: 'Lucas', gitHub: 'ggg', email: 'ggg' } ],
    MULTIPLE_QUESTION: [ { name: 'Lucas', gitHub: 'ggg', email: 'ggg' }, { name: 'Maria', gitHub: 'hhhh', email: 'hhhh' } ]
