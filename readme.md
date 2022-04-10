@@ -2,8 +2,6 @@
   # Operation Get Readme
 
   ![badge](https://img.shields.io/badge/license-MIT-blueviolet)
-  ![badge](https://img.shields.io/badge/license-GNU-blueviolet)
-  ![badge](https://img.shields.io/badge/license-toKill-blueviolet)
   
   
   ## Description
@@ -32,8 +30,6 @@
 
   ## License
   1. MIT
-  2. GNU
-  3. toKill
   
 
   ## Contributing
@@ -48,7 +44,7 @@
   
   
   ## Questions
-  1. Maria Bean: [GITHUB](mmeyer715: github.com/mmeyer715)[EMAIL](mailto:mbean1216@icloud.com)
-  2. Lucas Zimmerman: [GITHUB](github.com/dolomiteson)[EMAIL](mailto:zimmerman.lucas@hotmail.com)
+  1. Maria Bean: [GITHUB](github.com/mmeyer715)	[EMAIL](mailto:mbean1216@icloud.com)
+  2. Lucas Zimmerman: [GITHUB](github.com/dolomiteson)	[EMAIL](mailto:zimmerman.lucas@hotmail.com)
   
   
