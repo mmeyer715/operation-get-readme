@@ -4,7 +4,7 @@
   
   
   ## Description
-  My Description
+  n
 
   ## Table of Contents
 
@@ -31,11 +31,7 @@
   
   
   ## Questions
-  1. Lucas Zimmerman
-	*[GITHUB](https://github.com/dolomiteson)
-	*[EMAIL](mailto:zimmerman.lucas@hotmail)
-  2. Maria Bean
-	*[GITHUB](sdfd)
-	*[EMAIL](mailto:dsfds)
+  1. Lucas Zimmerman:    [GITHUB](https://github.com/dolomiteson)   [EMAIL](mailto:zimmerman.lucas@hotmail)
+  2. Maria Bean:    [GITHUB](sdfdf)   [EMAIL](mailto:sdfsdf)
   
   
