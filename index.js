@@ -84,7 +84,7 @@ function getReadmeData() {
         {
           type: 'input',
           name: 'email',
-          message: 'Please enter your email address'
+          message: 'Please enter contributors email address'
         },
       ]
     },
