@@ -8,8 +8,8 @@ function renderQuestions(question) {
     else {
         for (let i = 0; i < question.length; i++) {
             questionString += (i + 1) + ". " + question[i].name + "\n  \t" 
-            + Constants.GITHUB_BASE + question[i].gitHub + Constants.GITHUB_END + "\n  \t"
-            + Constants.EMAIL_BASE + question[i].email + Constants.EMAIL_END + "\n  ";
+            + (i + 1) + ". " + Constants.GITHUB_BASE + question[i].gitHub + Constants.GITHUB_END + "\n  \t"
+            + (i + 2) + ". " + Constants.EMAIL_BASE + question[i].email + Constants.EMAIL_END + "\n  ";
         }
         return questionString;
     }

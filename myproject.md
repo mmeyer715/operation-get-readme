@@ -1,7 +1,6 @@
 
   # My Project
 
-  ![badge](https://img.shields.io/badge/license-toKill-blueviolet)
   
   
   ## Description
@@ -23,7 +22,6 @@
   
 
   ## License
-  1. toKill
   
 
   ## Contributing
@@ -33,8 +31,11 @@
   
   
   ## Questions
-  1. Lucas Zimmerman4
-  	[GITHUB](https://github.com/dolomiteson)
-  	[EMAIL](mailto:zimmerman.lucas@hotmail)
+  1. Lucas Zimmerman
+  	1. [GITHUB](https://github.com/dolomiteson)
+  	2. [EMAIL](mailto:zimmerman.lucas@hotmail)
+  2. Maria Bean
+  	2. [GITHUB](ddsfsdf)
+  	3. [EMAIL](mailto:dsfdsfsd)
   
   
