@@ -72,9 +72,14 @@ function getReadmeData() {
       message: 'Add additioinal contact information for potential questions.',
       questions: [
         {
+          type: 'input',
+          name: 'name',
+          message: 'Enter contact name.'
+        },
+        {
           type:'input',
           name: 'gitHub',
-          message: 'Please enter your gitHub username and link to your profile.'
+          message: 'Please enter your gitHub link to your profile.'
         },
         {
           type: 'input',
