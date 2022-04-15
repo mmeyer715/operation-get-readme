@@ -6,6 +6,9 @@
   
   ## Description
   This project was created to generate professional readme files using command line prompts. Information will automatically be saved once the user has completed all prompts.
+https://user-images.githubusercontent.com/95265770/163624599-84ffcfd7-f2a3-47fa-8237-2d3480edfc7c.mp4
+https://user-images.githubusercontent.com/95265770/163624617-13b64d26-81fc-4a24-98cf-c835a39805e3.mp4
+
 
   ## Table of Contents
 
